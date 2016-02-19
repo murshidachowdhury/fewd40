@@ -1,0 +1,182 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+header {
+    width: 100%;
+    padding-top: 0px
+
+}
+aside { 
+    display: block;
+    float: right;
+}
+p{
+  font-size: 500px
+  text-align:justify;
+
+}
+body {
+     color: rgb(128,128,128);
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-ser
+
+}
+.part {
+   margin: auto;
+    width: 60%;
+    border: ;
+    padding: 10px;
+}
+
+
+ul {
+    
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    width: 1200px;
+    text-align: center;
+   
+}
+
+
+li  {
+
+    display: inline;
+    color: #FFFFFF;
+    position: right;
+    padding: 10;
+    margin-right: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    float:right;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: red;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  height: 50px;
+  background: #673AB7;
+}
+
+
+#relaxer {
+    color: #FFFFFF;
+    height: 50;
+    float: left;
+    margin-right: 12px;
+    font-size: 30px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+h2 
+ {
+  font-size: 50px;
+ }
+
+
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 68px
+  width
+}
+footer ul li {
+  display: inline; 
+  list-style: none;
+  margin: 0 26px 75px;
+}
+.center {
+    margin: auto;
+    width: 15%;
+    padding: 10px;
+}
+
+.button {
+  border-radius: 5px;
+  font-weight: 700;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.yellow {
+  background: #f9e42e;
+  color: #033048;
+}
+
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
